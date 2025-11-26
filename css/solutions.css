@@ -1,0 +1,5 @@
+.stats-grid:first-child .stat-number::before{
+    color:red;
+    content:"🔥";
+    display:block;
+}
