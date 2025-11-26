@@ -31,3 +31,7 @@ article.workout-plan:nth-last-of-type(2){
     border-left:5px #2ecc71 solid;
     background-color: #f0fff4;;
 }
+
+.exercise-item:nth-child(2n+2)::before {
+    content:"⚡";
+}
