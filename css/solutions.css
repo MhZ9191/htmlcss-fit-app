@@ -14,3 +14,8 @@
     color:white;
 }
 
+.stats-grid:hover{
+    transform:translateY(-10px);
+    box-shadow:5px 5px 15px 0px #000000;
+    transition: transform 0.3s linear, box-shadow 0.3s ease;
+}
