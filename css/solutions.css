@@ -1,5 +1,16 @@
 .stats-grid:first-child .stat-number::before{
-    color:red;
     content:"🔥";
     display:block;
 }
+
+.stats-grid:last-child{
+    background-image: linear-gradient(to right,#677ce6 10%,#7453ae);
+    background-size: cover;
+}
+
+.stats-grid:last-child .stat-number,
+.stats-grid:last-child .stat-label
+{
+    color:white;
+}
+
