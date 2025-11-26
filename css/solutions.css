@@ -70,3 +70,23 @@ article.workout-plan:nth-last-of-type(2){
   background-color: #3E5062;
 }
 
+.quote-box::before
+{
+    content:"\"";
+    position:absolute;
+    left:0;
+    top:-6px;
+    font-size: 69px;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.quote-box::after
+{
+  content:"\"";
+  position:absolute; 
+  right: 10px;
+  bottom: -38px;
+  font-size: 69px;
+  color:rgba(0,0,0,0.5);
+}
+
