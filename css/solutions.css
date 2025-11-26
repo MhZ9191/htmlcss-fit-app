@@ -43,4 +43,10 @@ article.workout-plan:nth-last-of-type(2){
     transition:transform 0.1s , box-shadow 0.1s;
 }
 
+.save-btn:hover{
+    transform: translateY(-2px);
+    background-color:#7454af;
+    box-shadow:2px 2px 8px 0px black;
+    transition:transform 0.3s,box-shadow 0.3s;
+}
 
