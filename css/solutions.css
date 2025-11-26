@@ -59,3 +59,14 @@ article.workout-plan:nth-last-of-type(2){
   right: 0;
   transform: translate(-41%,-21%);
 }
+
+.nav-item:hover {
+  color: blue;
+  background-color: #3E5062;
+}
+
+.nav-item:first-child{
+  color: blue;
+  background-color: #3E5062;
+}
+
