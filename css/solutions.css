@@ -24,3 +24,10 @@ article.workout-plan:nth-last-of-type(2){
     border-left: 5px orange solid;
     background-color:#fff8ba; ;
 }
+
+.exercise-item:first-child,
+.exercise-item:last-child
+{
+    border-left:5px #2ecc71 solid;
+    background-color: #f0fff4;;
+}
